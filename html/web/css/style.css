@@ -1,0 +1,175 @@
+body{
+	margin:0px auto 0px auto;
+}
+
+#cuerpo{
+	margin:0px auto 0px auto;
+	width:974px;
+	height:1600px;
+}
+#cabecera{
+	margin:0px auto 0px auto;
+	width:100%;
+	height:164px;
+}
+
+#contacto{
+	background-image:url("../images/contacto.png");
+	width:100%;
+	height:32.18px;
+}
+
+#contacto ul{
+	margin-top:3px;
+	float:left;
+	display:block;
+}
+
+#contacto li{
+	margin-right:8px;
+	font-family: arial;
+	font-size:13pt;
+	color:#c0c0c0;
+	display:inline-block;
+}
+
+#logo{
+	background-image:url("../images/logo.png");
+	width:100%;
+	height:99px;
+}
+#logo img{
+		margin-top:5px;
+}
+#menu{
+	background-image:url("../images/menu.png");
+	width:100%;
+	height:33px;
+}
+#menu ul{
+	margin-top:5px;
+	float:left;
+	display:block;
+}
+
+#menu li{
+	display:inline-block;
+}
+#menu a{
+	    margin-left:15px;
+	    text-align:center;  
+		font-family:arial;
+		font-weight:bold;
+		color:white;
+		text-decoration:none;
+		color:white;
+		padding: 1px 5px 1px 5px;
+}
+#menu a:hover{
+		
+		border-radius:5px;
+		background-image:url("../images/boton.png");
+}
+
+#sales{
+	background-image: url("../images/fondop.png");
+        background-repeat:repeat-x;
+	width:100%;
+	height:360px;
+}
+#sales img{
+	margin-top:0px;
+}
+
+#col_izquierda{
+	margin-left:5px;
+	float:left;
+	width:209px;
+	height:950px;
+}
+#categories{
+	background-color:#ffeeb7;
+	width:209px;
+	height:389px;
+}
+#categories ul{
+	margin-top:5px;
+	display:block;
+}
+#categories li{
+	font-size:11pt;
+	font-family:arial;
+	font-weight:bold;
+	margin-top:9px;
+	display:inline-block;
+}
+#categories a{
+	color:#434343;
+	text-decoration:none;
+}
+
+#categories a:hover{
+	color:#b20e00;
+}
+
+#join{
+	height:329px;
+	background-color:#f5f5f2;
+    margin-top:10px;
+}
+
+#pago{
+	height:227px;
+	margin-top:10px;
+}
+
+#col_derecha{
+	margin-right:0px;
+	height:980px;
+	width:720px;
+	float:right;
+}
+#col_derecha h1{
+	font-family:arial;
+	font-weight:bold;
+	color:#292929;
+	font-size:20pt;
+}
+.producto{
+	margin-right:15px;
+	margin-top:15px;
+	display:inline-block;
+}
+
+#online{
+	background-image:url("../images/online.png");
+	background-repeat:repeat-x;
+	height:60.23px;
+	margin-top:981px;
+}
+#company{
+	background-image:url("../images/fondofin.png");
+        background-repeat:repeat-x;
+	height:241px;
+}
+
+.col ul{
+	display:block;
+}
+.col li{
+	display:block;
+}
+.col a{
+		color:white;
+		font-family:arial;
+		text-decoration:none;
+}
+.col {
+	margin-top:10px;
+	display:inline-block;
+}
+.col span{
+	font-family:arial;
+	color:white;
+	font-weight:bold;
+}

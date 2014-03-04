@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]){
-    int lado=4;
-
-    for(int fila=0; fila<lado; fila++){
+    int altura=4;
+    for(int fila=0; fila<altura; fila++){
+	for (int col=0; col<altura;col++)
+	    if(fila>=col)
+		printf("*");
+	    else
+		printf(" ");
 	printf("\n");
-	for(int columna=0; columna<lado; columna++)
-	    printf("*");
+    }
+    return EXIT_SUCCESS;
 }
-	printf("\n");
-
-	return EXIT_SUCCESS;
-    
